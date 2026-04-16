@@ -77,7 +77,10 @@ export function ChatArea({ messages, isLoading, theme }: ChatAreaProps) {
               transition={{ delay: 0.2, duration: 0.3 }}
               className={`${textSecondary} max-w-md font-mono text-sm`}
             >
-              Sistema de suporte técnico inicializado.
+              <span>Sistema de suporte técnico inicializado.</span><br />
+              Este chatbot foi projetado para fornecer assistência técnica básica,
+              responder a perguntas comuns e ajudar a resolver problemas relacionados
+              a tecnologia. Sinta-se à vontade para fazer perguntas ou solicitar ajuda!
             </motion.p>
           </motion.div>
         </div>

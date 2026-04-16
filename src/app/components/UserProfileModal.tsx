@@ -219,7 +219,7 @@ export function UserProfileModal({
                     <label
                       className={`block ${textColor} font-mono text-sm mb-2`}
                     >
-                      Nome completo
+                      Nome
                     </label>
                     <input
                       type="text"

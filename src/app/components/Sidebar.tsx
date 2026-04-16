@@ -6,6 +6,7 @@ import {
   Search,
   X,
   Trash2,
+  Github,
 } from "lucide-react";
 import { useState } from "react";
 import { motion, AnimatePresence } from "motion/react";
@@ -118,12 +119,33 @@ export function Sidebar({
             <div className="space-y-6 flex-1 overflow-y-auto">
               <div className={`rounded-3xl border ${borderColor} p-4`}>
                 <p className={`${textPrimary} font-mono text-sm mb-2`}>
-                  Acesse sua conta clicando no ícone abaixo.
+                  Acesse sua conta clicando no ícone de avatar.
                 </p>
                 <p className={`${textSecondary} font-mono text-xs`}>
                   Login e cadastro agora estão disponíveis em um modal
                   centralizado.
                 </p>
+              </div>
+            </div>
+
+            <div className="space-y-2 flex-bottom overflow-y-auto flex items-center justify-center">
+              <a
+                href="https://github.com/emanuelsousa08/techbot-frontend.git"
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label="Link para o repositório do projeto"
+                className={`rounded-2xl border ${borderColor} p-4 flex items-center justify-center ${hoverBg} transition-all group`}
+              >
+                <Github
+                  className={`w-6 h-6 ${textPrimary} group-hover:text-cyan-300 transition-colors`}
+                />
+              </a>
+            </div>
+            <div className="space-y-1 overflow-y-auto">
+              <div className={`rounded-2xl p-1`}>
+                <p className={`${textPrimary} font-mono text-sm mb-2 space-y-4`}>
+                    Link para o repositório do projeto no GitHub
+                </p>  
               </div>
             </div>
           </motion.div>
