@@ -77,7 +77,7 @@ O usuário realiza autenticação, inicia conversas e envia mensagens que são p
 
 ## 🎥 Demonstração
 
-![Demo](https://drive.google.com/file/d/1GyCF7e3CQquKfjEagRjzwQnMhBp04tkm/view?usp=sharing)
+![Demo](docs/videos/demonstracao.mp4)
 
 ---
 
