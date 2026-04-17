@@ -77,7 +77,7 @@ O usuário realiza autenticação, inicia conversas e envia mensagens que são p
 
 ## 🎥 Demonstração
 
-![Demo](docs/videos/demonstracao.mp4)
+[Demo](https://drive.google.com/file/d/1GyCF7e3CQquKfjEagRjzwQnMhBp04tkm/view?usp=sharing)
 
 ---
 
@@ -97,7 +97,7 @@ A IA é responsável por:
 
 ## ⚠️ Observações
 
-* O backend pode apresentar pequeno atraso na primeira requisição devido ao modo gratuito do Render (cold start)
+* O backend pode apresentar pequeno atraso na primeira requisição, geralmente o cadastro, devido ao modo gratuito do Render (cold start)
 * Os dados são armazenados em SQLite, podendo não persistir entre reinicializações do servidor
 
 ---
