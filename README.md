@@ -18,6 +18,7 @@ O usuário realiza autenticação, inicia conversas e envia mensagens que são p
 
 ### Frontend
 
+* Figma (prototipação)
 * React + Vite
 * TypeScript
 * TailwindCSS
@@ -98,6 +99,6 @@ A IA é responsável por:
 ## ⚠️ Observações
 
 * O backend pode apresentar pequeno atraso na primeira requisição, geralmente o cadastro, devido ao modo gratuito do Render (cold start)
-* Os dados são armazenados em SQLite, podendo não persistir entre reinicializações do servidor
+* Os dados são armazenados em SQLite, podendo não persistir entre reinicializações do servidor ou novas sessões. Futuramente mudanças quanto à persistência serão corrigidas.
 
 ---
